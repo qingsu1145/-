@@ -29,3 +29,80 @@ int main()
 	printf("%d\n", age);
 	return 0;
 }
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+
+
+
+
+//int main()
+//{
+//	int input = 0;
+//	printf("加入谁\n");
+//	printf("我还是他 （我/他)>:");
+//	scanf("%d", &input);
+//	if (input == 0)//if为常用判断词语
+//		printf("好眼光\n");
+//	else//其余选项
+//		printf("差眼光\n");
+//
+//		return 0;
+//}
+
+
+//int main()
+//{
+//	printf("\tset,\\test);--\t--水平制表符，\test被转字符转义，应在\t前面加一个\
+//	printf("%c\n",'\'');
+//	printf("%s\n","\"");
+//	“\”为转字符，有转词语意思的意义
+//	return 0;
+//}
+//int main()
+//{
+//	char arr1[] = "abc";
+//	char arr2[] = { 'a','b','c' };
+//	printf("%d\n", strlen(arr1));//strlen - string length - 计算字符串长度的
+//	printf("%d\n", strlen(arr2));
+//	return 0;
+//}
+//int main()
+//{ 
+//数据在计算机上存储的时候，存储的是二进制
+//#av$
+//a-97
+//A-65
+//...
+//ASCII 编码
+//a,A,%,都是ASCII码值
+//char arr1[] = "abc";//数组
+//"abc"--'a''b''c''\0'--\0为字符串的结束标志
+//char arr2[] = {'a','b','c','\0'};--无\0则为一堆乱码
+//'\0'-0
+//printf("%s\n",arr1);
+//printf("%s\n",arr2);
+//return 0;
+
+//enum Sex
+//{
+//	MALE,//男性的
+//	FEMALE,//女性的
+//	SECRTE,//保密的
+//};
+//int main()
+//{
+//	enum Sex s = FEMALE;
+//	printf("%d\n", MALE);//代表数为0
+//	printf("%d\n", FEMALE);//代表数为1
+//	printf("%d\n", SECRTE);//代表数为2
+//	return 0;
+//}
+
+
+//#define MAX 100 
+//int main()
+//{
+//	int out[MAX] = { 0 };
+//	printf("%d\n", MAX);
+//	return 0;
+//}
